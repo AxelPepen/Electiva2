@@ -1,5 +1,5 @@
-suma = require('./suma')
-test("Verifica suma funciona bien", ()=>{
-    expect(suma(2,3)).toBe(5);
+const HolaMundo = require("./suma");
+test("Debe retornar 'Hola Mundo'", ()=>{
+    expect(HolaMundo()).toBe("Hola Mundo");
 });
-
+//Axel Haziel Pepen Feliz 2023-0999

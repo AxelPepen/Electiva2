@@ -1,5 +1,5 @@
-function suma(a, b){
-    return a+b
+function HolaMundo(){
+    return "Hola Mundo";
 }
-console.log(suma(2,3))
-module.exports = suma;
+module.exports = HolaMundo;
+//Axel Haziel Pepen Feliz 2023-0999
